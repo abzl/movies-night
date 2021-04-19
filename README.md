@@ -20,28 +20,22 @@ API Snippet:
             
             "content": "(Bloomberg) -- China Evergrande New Energy Vehicle Group Ltd.s expansive pop-up showroom sits at the heart of Shanghais National Exhibition and Convention Center. With nine models on display, its har… [+11464 chars]"
     
-
 Wireframes:
 
 <img width="1027" alt="Screen Shot 2021-04-19 at 15 12 56" src="https://user-images.githubusercontent.com/82680108/115290752-e8672a80-a121-11eb-84ee-1689cfbb7d2a.png">
 
 MVP: 
 
-* Built with HTML, CSS and JS.
-* Style using Flexbox or Grid.
-* Make external request to an external source using Axios and insert data on to the DOM.
-* Implement a responsive design using one media query.
-* Deploy to a hosting service like Github Pages.
+* Make sure external request for data works properly.
 * A funcitonal and responsive search box.
-* Responsive buttons.
-* Minimalist and attractive website.
-* Functionalty across the site.
-* Make sure the page renders well in any screen size.
+* Minimalist and attractive design.
+* Functionalty across the site (buttons, links, search box).
 
 Post-MVP:
 
+* Make sure the page renders well in any screen size.
 * Integration with a social network.
-* Version en Español.
+* Spanish version.
 
 Goals:
 
@@ -54,14 +48,29 @@ Priority Matrix:
 
 Timeframes:
 
-Monday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
+Monday: 
 
-Tuesday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
+HTML(create divs, sections, buttons, link files, add fonts) = 3hrs
+JS (connect to the API, extract data) + Research = 4hrs
+CSS (make sure items are align) = 1hr
 
-Wednesday: HTML + research = 2hrs, JS + Research = 3hrs, CSS = 3hrs.
+Tuesday: 
 
-Thursday: HTML + research = 2hrs, JS + Research = 3hrs, CSS = 3hrs.
+HTML(continue developing, if necessary add elements) = 3.5hrs, 
+JS(add eventListeners and functionality) = 3.5hrs
+CSS (colors and other details)= 1hr
 
-Friday: HTML = 2hrs, JS + Research = 2hrs, CSS = 4hrs.
+Wednesday: 
 
-This information may change depending on how the project progresses.
+HTML (look for details to adjust) = 2hrs
+JS (lean your code and test) = 3hrs 
+CSS (add more color and images) = 3hrs
+
+Thursday: 
+
+HTML = 1hr
+JS (debug and more testing) = 4hrs 
+CSS (final touches) = 3hrs
+
+Friday: (project due by 10AM)
+
