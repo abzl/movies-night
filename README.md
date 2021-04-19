@@ -54,9 +54,13 @@ Priority Matrix:
 Timeframes:
 
 Monday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
+
 Tuesday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
+
 Wednesday: HTML + research = 2hrs, JS + Research = 3hrs, CSS = 3hrs.
+
 Thursday: HTML + research = 2hrs, JS + Research = 3hrs, CSS = 3hrs.
+
 Friday: HTML = 2hrs, JS + Research = 2hrs, CSS = 4hrs.
 
 This information may change depending on how the project progresses.
