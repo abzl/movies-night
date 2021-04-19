@@ -1,7 +1,8 @@
-App title: theNews 🎬
+App title: theNews 📰
 
-App Description: A simple and clean option to read the news.
-API: .
+App Description: A simple and clean option to search and read the news.
+
+API: https://newsapi.org/v2/everything?q=tesla&from=2021-03-19&sortBy=publishedAt&apiKey=2330b964e19d473bb67d2ba38f8bed91
 
 API Snippet:
 
