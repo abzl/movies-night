@@ -33,21 +33,19 @@ MVP:
 * Implement a responsive design using one media query.
 * Deploy to a hosting service like Github Pages.
 * A funcitonal and responsive search box.
-* Responsive genre buttons.
-* Minimalist and attractive website (best queality possible for the posters).
-* Functionalty across the site (login, sign up and footer links).
+* Responsive buttons.
+* Minimalist and attractive website.
+* Functionalty across the site.
 * Make sure the page renders well in any screen size.
 
 Post-MVP:
 
 * Integration with a social network.
-* Include an option for the user to watch upcoming movies.
-* Include the option to see articles and reviews from the best critics in the industry.
 * Version en Español.
 
 Goals:
 
-* Help our users find the best movies to watch.
+* Help our users find the relevant news.
 * Create a user friendly interface.
 
 Priority Matrix:
