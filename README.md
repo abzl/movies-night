@@ -1,8 +1,8 @@
 App title: Movies Night 🎬
 
-App Description: Movies Night main goal is to be as simple as possible. We don't want our users to spend more than 3 or five minutes looking for a movie to watch. 
+App Description: Movies Night main goal is to be as simple as possible. We don't want our users to spend more than 5 minutes looking for a movie to watch. 
 
-API: OMDb API - I'll be extracting titles, year, rated, genre, plot, actors and ratings.
+API: OMDb API - I'll be extracting titles, year, rated, genre, plot, actors, ratings and more.
 
 API Snippet:
 
