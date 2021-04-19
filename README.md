@@ -58,7 +58,7 @@ Goals:
 
 Priority Matrix:
 
-
+<img width="893" alt="pm" src="https://user-images.githubusercontent.com/82680108/115261718-dd040700-a101-11eb-89ac-6a82a0140f6e.png">
 
 Timeframes:
 
