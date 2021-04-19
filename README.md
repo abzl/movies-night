@@ -22,6 +22,7 @@ API Snippet:
 
 Wireframes:
 
+<img width="1028" alt="Screen Shot 2021-04-19 at 14 26 23" src="https://user-images.githubusercontent.com/82680108/115285018-6542d600-a11b-11eb-9684-bb400c5db237.png">
 
 
 MVP: 
