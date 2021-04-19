@@ -27,9 +27,10 @@ Wireframes:
 MVP: 
 
 * Make sure external request for data works properly.
-* A funcitonal and responsive search box.
+* A funcitonal and responsive search box that returns news by title.
 * Minimalist and attractive design.
-* Functionalty across the site (buttons, links, search box).
+* Four to six news articles apended to the dom on  the front page.
+* Each article (onclick) take them to the original article news.
 
 Post-MVP:
 
@@ -39,38 +40,34 @@ Post-MVP:
 
 Goals:
 
-* Help our users find the relevant news.
-* Create a user friendly interface.
+* Monday: get project approved
+* Tuesday: Have HTML and JS files connected and ready to make axios call 
+* Wednesday: have data received from api and appended to the dom 
+* Thursday: reach mvp and start post mvp
+* Friday: present project
 
 Priority Matrix:
 
 <img width="893" alt="pm" src="https://user-images.githubusercontent.com/82680108/115261718-dd040700-a101-11eb-89ac-6a82a0140f6e.png">
 
-Timeframes:
+Timeframes: 
 
-Monday: 
+* Get project approved = 3hrs
+* HTML (create divs, sections, buttons, link files, add fonts) = 3hrs
+* JS (connect to the API, extract data) + Research = 4hrs
+* CSS (make sure items are align) = 2hr
+ 
+* JS(add eventListeners and functionality) = 4hrs
+* CSS (colors and other details)= 1hr
 
-HTML(create divs, sections, buttons, link files, add fonts) = 3hrs
-JS (connect to the API, extract data) + Research = 4hrs
-CSS (make sure items are align) = 1hr
+* HTML (look for details to adjust) = 2hrs
+* JS (lean your code and test) = 3hrs 
+* CSS media queries + research = 3hrs
 
-Tuesday: 
+* HTML = 1hr
+* JS (debug and more testing) = 4hrs 
+* CSS (final touches) = 3hrs
+* P MVP = 4hrs
 
-HTML(continue developing, if necessary add elements) = 3.5hrs, 
-JS(add eventListeners and functionality) = 3.5hrs
-CSS (colors and other details)= 1hr
-
-Wednesday: 
-
-HTML (look for details to adjust) = 2hrs
-JS (lean your code and test) = 3hrs 
-CSS (add more color and images) = 3hrs
-
-Thursday: 
-
-HTML = 1hr
-JS (debug and more testing) = 4hrs 
-CSS (final touches) = 3hrs
-
-Friday: (project due by 10AM)
+* Total = 36hrs
 
