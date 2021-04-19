@@ -62,6 +62,8 @@ Priority Matrix:
 
 Timeframes:
 
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/9FMdcQGeCPBBBfyPFz22ad@2Ux7TurymLKk1oWb5ZyD"></iframe>
+
 Monday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
 
 Tuesday: HTML + research = 3.5hrs, JS + Research = 3.5hrs, CSS = 1hr.
