@@ -19,8 +19,8 @@ API Snippet:
 
 Wireframes:
 
-* landing page / first page design https://wireframe.cc/u8azBH 
-* second page / second page design https://wireframe.cc/fmy0rj
+* First page design https://wireframe.cc/u8azBH 
+* Second page design https://wireframe.cc/fmy0rj
 
 MVP: 
 
