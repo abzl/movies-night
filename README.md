@@ -1,35 +1,28 @@
-App title: Movies Night 🎬
+App title: theNews 🎬
 
-App Description: Movies Night main goal is to be as simple as possible. We don't want our users to spend more than 5 minutes looking for a movie to watch. 
-
-API: OMDb API - I'll be extracting titles, year, rated, genre, plot, actors, ratings and more.
+App Description: A simple and clean option to read the news.
+API: .
 
 API Snippet:
 
-"Title": "Guardians of the Galaxy Vol. 2",
-
-    "Year": "2017",
+            "author": "PR Newswire",
+            
+            "title": "Himalaya Therapeutics Announces Appointment of Nicholas Desjardins as Chief Financial Officer",
+            
+            "description": "Himalaya Therapeutics (\"Himalaya\"), a clinical-stage biopharmaceutical company focused on development and commercialization in Greater China of a novel class...",
+            
+            "url": "https://finance.yahoo.com/news/himalaya-therapeutics-announces-appointment-nicholas-174200878.html",
+            
+            "urlToImage": "https://s.yimg.com/uu/api/res/1.2/X2tjZwFNtfAi5ngTQabhpQ--~B/aD0xMDY7dz00MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/prnewswire.com/30098e39c974b30f1d559aa3e30438ae",
+            
+            "publishedAt": "2021-04-19T17:42:00Z",
+            
+            "content": "(Bloomberg) -- China Evergrande New Energy Vehicle Group Ltd.s expansive pop-up showroom sits at the heart of Shanghais National Exhibition and Convention Center. With nine models on display, its har… [+11464 chars]"
     
-    "Rated": "PG-13",
-    
-    "Released": "05 May 2017",
-    
-    "Runtime": "136 min",
-    
-    "Genre": "Action, Adventure, Comedy, Sci-Fi",
-    
-    "Director": "James Gunn",
-    
-    "Writer": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
-    
-    "Actors": "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
-    
-    "Plot": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego."
 
 Wireframes:
 
-* First page design https://wireframe.cc/u8azBH 
-* Second page design https://wireframe.cc/fmy0rj
+
 
 MVP: 
 
