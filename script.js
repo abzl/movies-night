@@ -1,83 +1,33 @@
-const getData = async () => {
-    const url = 'https://api.currentsapi.services/v1/latest-news?&apiKey=GW6OhgxM78D2miBzHAaKtqHd98f56M51KgzZl-LA2yqTtsLY';
-    try {
-        const response = await axios.get(url);
-        // console.log(response.data.news);
-        const newsArticlesList = response.data.news
-        // console.log(newsArticlesList);
-        newsArticlesList.forEach((article) => {
+    let getData = async () => {
 
+        let url = 'https://api.currentsapi.services/v1/latest-news?&apiKey=GW6OhgxM78D2miBzHAaKtqHd98f56M51KgzZl-LA2yqTtsLY';
 
-            console.log('right here', article.description)
+        try {
+            let response = await axios.get(url);
 
-            let articleHTML = ` 
-          <h1>${article.title}</h1>
-          <img src="${article.image}" alt="Article Image"> 
+            let newsArticlesList = response.data.news
+
+            newsArticlesList.forEach((article) => {
+
+                let articleHTML = `
+          <h2>${article.title}</h2>
           <p>${article.description}</p>
+          <img src="${article.image}" alt="article-image">
           `
 
-            const divToAppend = document.querySelector('.article-title')
-            divToAppend.insertAdjacentHTML('beforeend', articleHTML)
-            // headines
+                let divToAppend = document.querySelector('.article-title');
+                divToAppend.insertAdjacentHTML('beforeend', articleHTML)
+                return articleHTML
 
+            })
 
-
-
-            // images
-
-
-            // text
-
-        })
-
-    } catch (error) {
-        console.error(error);
+        } catch (error) {
+            console.error(error);
+        } 
     }
-}
 
-getData();
+    let button = document.querySelector('#search-btn');
 
+    button.addEventListener('submit', getData);
 
-
-
-// 
-//console.log(url)
-//       linkLauncher(response.data.response.results)
-//function linkLauncher(articles) {
-//   console.log(articles)
-//     articles.forEach((article) => {
-//         let a = document.createElement('a');
-//       a.href = article.webUrl
-//       a.innerText = article.webTitle
-//         const appendDiv = document.querySelector('.art-link');
-//       appendDiv.append(a)
-
-
-//     })
-// }
-
-
-
-
-
-
-
-
-
-
-// const test = "response.data.response.results[0]";
-
-// document.querySelector("test-btn").addEventListener('click', () => {
-//     console.log(test);
-// });
-
-
-// function showTopHeadlines() {
-//     console.log(news);
-// }
-
-// showTopHeadlines(news);
-
-
-// error 426 protocol upgrade
-//"https://newsapi.org/v2/everything?q=keyword&apiKey=2330b964e19d473bb67d2ba38f8bed91";
+    getData();
