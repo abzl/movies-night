@@ -35,8 +35,7 @@ h2 {
     max-width: 55%;
 }
 
-h5,
-h6 {
+h5 {
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -89,12 +88,13 @@ li {
     transition: ease-out 0.3s;
     font-size: 15px;
     outline: none;
+    margin-top: 20px;
 }
 
 #search-btn:hover {
     font-family: 'Raleway', sans-serif;
     box-shadow: inset 100px 0 0 0 #000;
-    /* cursor: pointer; */
+    cursor: pointer;
     color: white;
 }
 
@@ -104,17 +104,18 @@ li {
 .article-title {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
 }
+
+
 
 /*----------------------------*/
 /* MEDIA QUERY */
 /*----------------------------*/
 @media screen and (max-width: 1000px) {
     body {
-        text-align: left;
+        text-align: center;
         font-size: 18px;
         background-color: rgb(15, 15, 15);
         color: white;
@@ -125,7 +126,14 @@ li {
     }
 
     #search-btn {
-        align-items: flex-end;
+        align-items: center;
         color: black;
     }
+}
+
+#search-btn:hover {
+    font-family: 'Raleway', sans-serif;
+    box-shadow: inset 100px 0 0 0 rgb(255, 0, 68);
+    cursor: pointer;
+    color: white;
 }
