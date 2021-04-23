@@ -2,7 +2,7 @@ App title: theNews 📰
 
 App Description: A simple and clean option to search and read the news.
 
-API: https://newsapi.org/v2/everything?q=tesla&from=2021-03-19&sortBy=publishedAt&apiKey=2330b964e19d473bb67d2ba38f8bed91
+API: https://api.currentsapi.services/v1/latest-news?&apiKey=GW6OhgxM78D2miBzHAaKtqHd98f56M51KgzZl-LA2yqTtsLY
 
 API Snippet:
 
@@ -22,18 +22,18 @@ API Snippet:
     
 Wireframes:
 
-<img width="1027" alt="Screen Shot 2021-04-19 at 15 12 56" src="https://user-images.githubusercontent.com/82680108/115290752-e8672a80-a121-11eb-84ee-1689cfbb7d2a.png">
+<img width="1028" alt="Screen Shot 2021-04-23 at 09 15 37" src="https://user-images.githubusercontent.com/82680108/115876657-99b4db80-a414-11eb-90ee-d3ae8f80b2cc.png">
+
 
 MVP: 
 
 * Make sure external request for data works properly.
-* A funcitonal and responsive search box that returns news by title.
 * Minimalist and attractive design.
-* Four to six news articles apended to the dom on  the front page.
-* Each article (onclick) take them to the original article news.
+* Three to five categories apended to the dom on  the front page.
 
 Post-MVP:
 
+* A funcitonal and responsive search box that returns news by title.
 * Make sure the page renders well in any screen size.
 * Integration with a social network.
 * Spanish version.
@@ -70,4 +70,3 @@ Timeframes:
 * P MVP = 4hrs
 
 * Total = 36hrs
-
